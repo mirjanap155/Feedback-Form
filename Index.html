@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cake Connoisseur's Feedback Form</title>
+    <link rel="stylesheet" href="styles.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+    <h1 id="title">Cake Connoisseur's<br>Feedback Form</h1>
+    <p id="description"><em>Hey there, sweet tooth! <br>We need your help to make our cakes even more scrumptious.<br> Fill out this survey and let the sugar rush begin!</em></p>
+    <form id="survey-form">
+    <label class="inputlabels" id="name-label" for="name">Your Name: <input type="text" id="name" placeholder="Please enter your name here" required></label>
+    <label class="inputlabels" id="email-label" for="email">Your Email: <input type="email" id="email" placeholder="Pleas enter your email here" required></label>
+    <label class="inputlabels" id="number-label" for="number">Number of orders: <input type="number" id="number" placeholder="Select the number of orders you had" min="1" max="100"></label>
+    
+    <label class="inputlabels" for="dropdown">Select the best cake: 
+    <select id="dropdown">
+      <option value="">Pick your favourite:</option>
+      <option value="Midnight Chocolate Madness">Midnight Chocolate Madness</option>
+      <option value="Unicorn Magic">Unicorn Magic</option>
+      <option value="Lemon Zest-a-palooza">Lemon Zest-a-palooza</option>
+      <option value="Other">Other</option>
+    </select>
+ 
+    
+    <p id="radios">How likely are you to recommend our cakes:</p>
+    <label class="radiolabels" for="likely"><input id="likely" type="radio" name="taste" value="likely">100% likely</label>
+    <label class="radiolabels" for="verylikely"><input id="verylikely" type="radio" name="taste" value="verylikely">Very likely</label>
+    <label class="radiolabels" for="somewhatlikely"><input id="sousomewhatlikely" type="radio" name="taste" value="sousomewhatlikely">Somewhat likely</label>
+    <label class="radiolabels" for="unlikely"><input id="unlikely" type="radio" name="taste" value="unlikely">Unlikely</label>
+    
+    <p id="checkboxes">Which of our services have you indulged in? (Select all that apply)</p>
+    <label  for="birthday"><input type="checkbox" value="birthday" id="birthday" name="color"> Birthday cakes </label>
+    <label  for="wedding"><input type="checkbox" value="wedding" id="wedding" name="color"> Wedding cakes </label>
+    <label  for="everyday"><input type="checkbox" value="everyday" id="everyday" name="color"> Everyday </label>
+    <label  for="custom"><input type="checkbox" value="custom" id="custom" name="color"> Custom cake </label>
+    
+    <label id="suggestlabel" for="suggest">Your Suggestions: 
+      <textarea id="suggest" rows="5" cols="72"></textarea>
+    <input type="submit" id="submit" value="Submit">
+    </form>
+    <footer>
+    </footer>
+  </main>
+  </body>
+</html>

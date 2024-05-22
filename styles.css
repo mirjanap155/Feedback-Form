@@ -1,0 +1,122 @@
+html{
+  background: #6e192d;
+  background-image: url("https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay_127032-2200.jpg?t=st=1716328456~exp=1716332056~hmac=bb894c864aec765ae36119635c303a43ceb1f5e47a579306da960353849caed1&w=1800") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+body{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(81, 71, 70, 1);
+  width: 50%;
+  margin: auto;
+}
+  main{
+    background-color: rgba(247, 241, 236, 0.2);
+    margin: auto;
+    border-radius: 30px;
+  }
+  
+  h1{
+    padding-top: 0.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .inputlabels {
+    display: block;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    text-indent: 3%;
+  }
+
+  input[type="text"], input[type="email"], input[type="number"]{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0.3em;
+    border-radius: 20px;
+    border: 1px solid rgba(206, 115, 125, 1);
+    box-shadow: 0 0 10px 0 rgba(206, 80, 92, 1);
+    height: 2em;
+    font-size: 16px;
+    font-style: italic;
+    text-indent: 3%;
+  }
+  #dropdown{
+    display: block;
+    width: 91%;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0.3em;
+    border-radius: 20px;
+    border: 1px solid rgba(206, 115, 125, 1);
+    box-shadow: 0 0 10px 0 rgba(206, 80, 92, 1);
+    height: 2em;
+    font-size: 16px;
+    font-style: italic;
+    text-indent: 3%;
+  }
+
+  
+
+
+  #radios{
+    margin-top: 0.3em;
+    margin-bottom:0.3em;
+  }
+  #checkboxes{
+    margin-top: 0.3em;
+    margin-bottom:0.3em;
+    
+  }
+  .radiolabels{
+    display: inline;
+    margin-left:1em;
+  }
+  
+  input[type="radio"]{
+    display: inline;
+    width: auto;
+    accent-color: rgba(206, 80, 92, 1);
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+  }  
+  input[type="checkbox"]{
+    accent-color: rgba(206, 80, 92, 1);
+    margin-left: 1.5em;
+  }
+  #suggestlabel{
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom:0.3em;
+  }
+  #suggest{
+    display: block;
+    border-radius: 20px;
+    border: 1px solid rgba(206, 115, 125, 1);
+    box-shadow: 0 0 10px 0 rgba(206, 80, 92, 1);
+    margin-top:0.5em;
+  }
+  #sweet{
+    margin-left: 0.2em;
+  }
+  #submit{
+  margin-bottom: 2em;
+  border-radius: 12px;
+  margin-top: 1em;
+  background-color:rgba(206, 80, 92, 1);
+  border-color: rgba(206, 80, 92, 1);
+  color:white;
+  box-shadow: 0 0 10px 0 rgba(206, 80, 92, 1);
+  font-size: 18px;
+  padding:10px;
+  font-style: italic;
+  }
+  
